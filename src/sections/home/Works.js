@@ -48,46 +48,46 @@ const Works = () => {
                     filterBy("*");
                   }}
                 >
-                  All works
+                  All work
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "branding" ? "active" : null
+                    activeLink === "development" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("branding");
+                    filterBy("development");
                   }}
                 >
-                  Branding
+                  AEM Development
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "design" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("design");
                   }}
                 >
-                  UX Design
+                  Design
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
+                    activeLink === "wordpress" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("photography");
+                    filterBy("wordpress");
                   }}
                 >
-                  Photography
+                  Wordpress
                 </a>
               </li>
             </ListNav>
@@ -106,7 +106,7 @@ const Works = () => {
             ))}
           </Masonry>
           <Box pt="3rem" className="text-center">
-            <ButtonOutline>Load more works</ButtonOutline>
+            <ButtonOutline>Load more</ButtonOutline>
           </Box>
         </Container>
       </Section>

@@ -9,20 +9,20 @@ import imgT8 from "../assets/image/jpg/masonry-image-7.jpg";
 
 export const masonryWorks1 = [
   {
-    brand: `Perfumed App`,
-    slug: `perfumed-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`],
+    brand: `USCIS`,
+    slug: `fee-calculator`,
+    title: `USCIS Fee Calculator.`,
+    categories: [`development`],
     thumbnail: imgT1,
-  link : "/portfolio-details"
+  link : "/fee-calculator"
 },
   {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`photography`],
+    brand: `123 Grow With Me`,
+    slug: `123-grow`,
+    title: `New Website for a Great Daycare.`,
+    categories: [`wordpress`],
     thumbnail: imgT2,
-  link : "/portfolio-details"
+  link : "/123-grow"
 },
   {
     brand: `Shopper`,
