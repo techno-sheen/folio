@@ -39,18 +39,9 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                 <div>
                   <Text color="light">Email me at</Text>
 
-                  <a href="mailto:hello@folio.com" className="font-weight-bold">
-                    <Span color="primary">hello@folio.com</Span>
+                  <a href="mailto:sean@technosheen.com" className="font-weight-bold">
+                    <Span color="primary">sean@technosheen.com</Span>
                   </a>
-                </div>
-                <div className="mt-5">
-                  <Text color="light">Call me at</Text>
-
-                  <div>
-                    <a href="tel:+1-402-4983" className="font-weight-bold">
-                      <Span color="primary">+1-402-4983</Span>
-                    </a>
-                  </div>
                 </div>
               </ContactCard>
             </Col>
