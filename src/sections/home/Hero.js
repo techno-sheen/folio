@@ -31,10 +31,10 @@ const Hero = () => {
           <Row className="align-items-center">
             <Col lg="7">
               <Box mt={5}>
-                <Title>Give your site some <br />
-                  <em>SHEEN</em> </Title>
+                <Title>Full Stack Developer, Specializing in Adobe 
+                  Experience Manager.</Title>
                 <Text pb="1.875rem" pt="1.25rem" color="heading">
-                  Miami based software developer.
+                  <em>Currently based in Miami, FL.</em>
                 </Text>
                 <Box>
                   <ButtonIcon

@@ -463,15 +463,6 @@ const Header = ({ isDark }) => {
                       contact.
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="https://uxtheme.net/theme-support"
-                      target="_blank"
-                    >
-                      support
-                    </a>
-                  </li>
                 </Menu>
               </div>
             </div>

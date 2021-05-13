@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Sean Mahoney
                 </Title>
                 <Text
                   color="light"
@@ -42,21 +42,18 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
-                </Text>
-                <Text color="light" className="mt-4">
-                  I strive for a minimal and beautiful design.
+                  Full stack developer specializing in Adobe 
+                  Experience Manager. Currently based in Miami, FL. 
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>
 
                   <Text variant="p">
                     <a
-                      href="mailto:hello@folio.com"
+                      href="mailto:sean@technosheen.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">sean@technosheen.com</Span>
                     </a>
                   </Text>
                 </div>
@@ -64,38 +61,22 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                  Sean Mahoney
                 </Text>
                 <Text color="light" variant="small">
-                  Founder of Folio Digital
+                  aka technosheen
                 </Text>
                 <div className="mt-5 d-flex">
                   <LinkSocial
-                    href="https://www.dribbble.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Dribble
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.twitter.com"
+                    href="https://www.linkedin.com/in/seanmahoney92"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
-                    Twitter
+                    LinkedIn
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Facebook
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/technosheen"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-weight-bold"

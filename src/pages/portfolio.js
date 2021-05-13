@@ -2,8 +2,8 @@ import React from "react";
 import { Element } from "react-scroll";
 
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/grid-4-fluid/Hero";
-import Works from "../sections/grid-4-fluid/Works";
+import Hero from "../sections/portfolio/Hero";
+import Works from "../sections/portfolio/Works";
 import Contact from "../sections/common/Contact";
 
 const IndexPage = () => {
@@ -14,6 +14,7 @@ const IndexPage = () => {
         <Element name="works">
           <Works />
         </Element>
+
         <Contact />
       </PageWrapper>
     </>
